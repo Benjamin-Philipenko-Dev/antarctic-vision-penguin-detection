@@ -2,9 +2,11 @@
 
 Computer vision project (with Bentley Barth, University of Victoria) to detect penguins in Antarctic imagery and video, regardless of their size or orientation, using YOLOv5.
 
-[![Watch the demo](figures/detections.jpg)](https://youtu.be/zA6IwMAYqpI)
+[![Baseline demo: pre-trained YOLOv5 labelling penguins as birds](figures/detections.jpg)](https://youtu.be/zA6IwMAYqpI)
 
-▶️ **[Watch the demo video](https://youtu.be/zA6IwMAYqpI)**
+*Baseline: YOLOv5's pre-trained model has no penguin class, so it labels every penguin "bird". That limitation is what the custom model below fixes.*
+
+▶️ **[Watch the baseline demo video](https://youtu.be/zA6IwMAYqpI)**
 
 ## Approach
 
